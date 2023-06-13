@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f816b00-1b3b-44d4-952c-e7480fde949d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiplyStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiplyStringsOther.java" afterDir="false" />
+    </list>
+    <list id="5cb05480-791b-42d5-afe9-ce7ed453194b" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +72,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686572474634</updated>
-      <workItem from="1686572475679" duration="2531000" />
+      <workItem from="1686572475679" duration="6615000" />
+      <workItem from="1686632247802" duration="14000" />
+      <workItem from="1686632265929" duration="4139000" />
+      <workItem from="1686638483935" duration="12043000" />
+    </task>
+    <task id="LOCAL-00001" summary="1. TwoSumForEach and TwoSumHashMap">
+      <created>1686575223624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686575223624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="167. Two Sum II">
+      <created>1686577075298</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686577075298</updated>
+    </task>
+    <task id="LOCAL-00003" summary="9 PalindromeNumber">
+      <created>1686632335129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686632335129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="58. Length of Last Word&#10;66. Plus One&#10;13. Roman to Integer (2 types solution)">
+      <created>1686652866496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686652866496</updated>
+    </task>
+    <task id="LOCAL-00005" summary="code refactor">
+      <created>1686652905219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686652905219</updated>
     </task>
     <servers />
   </component>
@@ -87,6 +129,21 @@
           <url>file://$PROJECT_DIR$/src/TwoSum.java</url>
           <line>22</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoSumII.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TwoSumII.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MultiplyStrings.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
