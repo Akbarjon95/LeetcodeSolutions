@@ -1,3 +1,5 @@
+//Runtime: 9ms
+//Beats: 99.17%
 public class PalindromeNumber {
     public static void main(String[] args) {
         int x = 121;
@@ -17,6 +19,5 @@ public class PalindromeNumber {
             return true;
         } else
             return false;
-
     }
 }
