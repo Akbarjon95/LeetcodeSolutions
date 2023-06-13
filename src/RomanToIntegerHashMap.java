@@ -1,6 +1,3 @@
-//Runtime: 9 ms
-//Beats: 13.34%
-
 import java.util.HashMap;
 
 public class RomanToIntegerHashMap {
