@@ -9,16 +9,16 @@
 public class MoveZeroesOneFor {
 
     public static void main(String[] args) {
-        int[] nums = {0,1,0,3,12};
+        int[] nums = {0, 1, 0, 3, 12};
         moveZeroes(nums);
     }
 
     private static void moveZeroes(int[] nums) {
-        for (int i = 0; i < nums.length-1; i++) {
-            if (nums[i] == 0){
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 0) {
                 int t = nums[i];
-                nums[i] = nums[i+1];
-                nums[i+1] = t;
+                nums[i] = nums[i + 1];
+                nums[i + 1] = t;
             }
         }
     }

@@ -14,19 +14,19 @@ public class ThirdMaxNumber {
         //int[] nums = {-2147483648,-2147483648,-2147483648,-2147483648,1,1,1};
         //int[] nums = {5,2,4,1,3,6,0};
         //int[] nums = {3,2,3,1,2,4,5,5,6};
-        int[] nums = {3,2,1};
+        int[] nums = {3, 2, 1};
 
         tridMax(nums);
     }
 
-    private static int tridMax(int[] nums){
-       int [] b = new int[nums.length];
+    private static int tridMax(int[] nums) {
+        int[] b = new int[nums.length];
 
         int a = nums[0];
         b[0] = a;
         int k = 0;
         for (int i = 1; i < nums.length; i++) {
-            if (a != nums[i]){
+            if (a != nums[i]) {
                 b[++k] = nums[i];
                 a = nums[i];
             }
@@ -40,10 +40,10 @@ public class ThirdMaxNumber {
                 }
             }
         }
-        if(k >= 2){
+        if (k >= 2) {
             return b[2];
         }
-        if(k >= 1){
+        if (k >= 1) {
             return nums[0];
         }
         return nums[0];

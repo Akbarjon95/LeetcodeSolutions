@@ -16,7 +16,7 @@ public class AddStrings {
         addString(num1, num2);
     }
 
-    public static String addString(String num1, String num2){
+    public static String addString(String num1, String num2) {
         BigInteger a = new BigInteger(num1);
         BigInteger b = new BigInteger(num2);
         BigInteger c = a.add(b);

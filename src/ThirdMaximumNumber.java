@@ -13,7 +13,7 @@ public class ThirdMaximumNumber {
         //int[] nums = {2,2,3,1};
         //int[] nums = {-2147483648,-2147483648,-2147483648,-2147483648,1,1,1};
         //int[] nums = {5,2,4,1,3,6,0};
-        int[] nums = {3,2,3,1,2,4,5,5,6};
+        int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
 
         tridMax(nums);
     }
@@ -33,7 +33,7 @@ public class ThirdMaximumNumber {
         int a = nums[0];
         for (int i = 1; i < nums.length; i++) {
             isFinish = false;
-            if (a != nums[i]){
+            if (a != nums[i]) {
                 k++;
                 a = nums[i];
                 isFinish = true;
@@ -41,36 +41,35 @@ public class ThirdMaximumNumber {
 //            if (k == 3){
 //                return a;
 //            }
-            if (i == nums.length - 1 && isFinish){
+            if (i == nums.length - 1 && isFinish) {
                 k++;
             }
         }
 
-        if(k ==3 && nums.length > 3){
+        if (k == 3 && nums.length > 3) {
             return a;
         }
 
-        if (k < 2){
+        if (k < 2) {
             return nums[0];
         }
 
-        if (k == nums.length){
+        if (k == nums.length) {
             return nums[2];
         }
 
-        if (k == 0 && nums.length > 3){
+        if (k == 0 && nums.length > 3) {
             return nums[2];
         }
 
         if (nums.length < 3) {
             return nums[0];
-        }
-        else if (nums.length == 3 && (nums[0] == nums[1] || nums[1] == nums[2])) {
+        } else if (nums.length == 3 && (nums[0] == nums[1] || nums[1] == nums[2])) {
             return nums[0];
         }
-            if(nums.length > 3){
-                return nums[nums.length-2];
-            }
-        return nums[nums.length-1];
+        if (nums.length > 3) {
+            return nums[nums.length - 2];
+        }
+        return nums[nums.length - 1];
     }
 }
